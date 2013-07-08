@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
+		002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
+		002F3A2E09D0888800EBEB88 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A2C09D0888800EBEB88 /* SDLMain.m */; };
+		002F3A3F09D088BA00EBEB88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A3E09D088BA00EBEB88 /* main.cpp */; };
+		7974ECAB178A3A3C000B5EFB /* cube.bmp in Copy Files */ = {isa = PBXBuildFile; fileRef = 7974EC98178A36CE000B5EFB /* cube.bmp */; };
+		7974ECAD178A3A3C000B5EFB /* hunter.bmp in Copy Files */ = {isa = PBXBuildFile; fileRef = 7974EC9A178A36CE000B5EFB /* hunter.bmp */; };
+		7974ECAE178A3A3C000B5EFB /* marine.pcx in Copy Files */ = {isa = PBXBuildFile; fileRef = 7974EC9B178A36CE000B5EFB /* marine.pcx */; };
+		7974ECB0178A3A5A000B5EFB /* cube.md2 in Copy Files */ = {isa = PBXBuildFile; fileRef = 7974ECA1178A36D9000B5EFB /* cube.md2 */; };
+		7974ECB1178A3A5A000B5EFB /* hunter.md2 in Copy Files */ = {isa = PBXBuildFile; fileRef = 7974ECA2178A36D9000B5EFB /* hunter.md2 */; };
+		7974ECB2178A3A5A000B5EFB /* marine.MD2 in Copy Files */ = {isa = PBXBuildFile; fileRef = 7974ECA3178A36D9000B5EFB /* marine.MD2 */; };
+		7974ECB3178A3A5A000B5EFB /* sphere.md2 in Copy Files */ = {isa = PBXBuildFile; fileRef = 7974ECA4178A36D9000B5EFB /* sphere.md2 */; };
+		7974ECB9178A44BE000B5EFB /* floor.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 7974ECB8178A44BE000B5EFB /* floor.bmp */; };
+		7974ECBA178A44E4000B5EFB /* floor.bmp in Copy Files */ = {isa = PBXBuildFile; fileRef = 7974ECB8178A44BE000B5EFB /* floor.bmp */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C4139E1E0F45903D00DC8CC5 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4139E1D0F45903D00DC8CC5 /* SDL_image.framework */; };
+		C4495B530EFC4D0A00745AAE /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4495B520EFC4D0A00745AAE /* Application.cpp */; };
+		C4495B700EFC522F00745AAE /* SDLApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4495B6F0EFC522F00745AAE /* SDLApplication.cpp */; };
+		C4495B850EFC533A00745AAE /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4495B840EFC533A00745AAE /* Renderer.cpp */; };
+		C4495BC30EFC55D900745AAE /* SampleApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4495BC20EFC55D900745AAE /* SampleApplication.cpp */; };
+		C46EDE560F44C16900E1DDC7 /* MD2Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C46EDE550F44C16900E1DDC7 /* MD2Model.cpp */; };
+		C46F630D0F4C410D005788EF /* SDLTextureManager.h in Sources */ = {isa = PBXBuildFile; fileRef = C46F630C0F4C410D005788EF /* SDLTextureManager.h */; };
+		C46F63D80F4C478B005788EF /* SDLTextureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C46F63D70F4C478B005788EF /* SDLTextureManager.cpp */; };
+		C4E79F290EFC5CF300DD1A84 /* SDLSoftwareRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E79F280EFC5CF300DD1A84 /* SDLSoftwareRenderer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		002F39FD09D0883400EBEB88 /* Copy Frameworks into .app bundle */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */,
+			);
+			name = "Copy Frameworks into .app bundle";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7974ECA9178A39E7000B5EFB /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = textures;
+			dstSubfolderSpec = 16;
+			files = (
+				7974ECBA178A44E4000B5EFB /* floor.bmp in Copy Files */,
+				7974ECAB178A3A3C000B5EFB /* cube.bmp in Copy Files */,
+				7974ECAD178A3A3C000B5EFB /* hunter.bmp in Copy Files */,
+				7974ECAE178A3A3C000B5EFB /* marine.pcx in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7974ECAF178A3A4C000B5EFB /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = models;
+			dstSubfolderSpec = 16;
+			files = (
+				7974ECB0178A3A5A000B5EFB /* cube.md2 in Copy Files */,
+				7974ECB1178A3A5A000B5EFB /* hunter.md2 in Copy Files */,
+				7974ECB2178A3A5A000B5EFB /* marine.MD2 in Copy Files */,
+				7974ECB3178A3A5A000B5EFB /* sphere.md2 in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		002F39F909D0881F00EBEB88 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Library/Frameworks/SDL.framework; sourceTree = "<absolute>"; };
+		002F3A2B09D0888800EBEB88 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		002F3A2C09D0888800EBEB88 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		002F3A3E09D088BA00EBEB88 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		7974EC98178A36CE000B5EFB /* cube.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = cube.bmp; sourceTree = "<group>"; };
+		7974EC9A178A36CE000B5EFB /* hunter.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = hunter.bmp; sourceTree = "<group>"; };
+		7974EC9B178A36CE000B5EFB /* marine.pcx */ = {isa = PBXFileReference; lastKnownFileType = file; path = marine.pcx; sourceTree = "<group>"; };
+		7974ECA1178A36D9000B5EFB /* cube.md2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cube.md2; sourceTree = "<group>"; };
+		7974ECA2178A36D9000B5EFB /* hunter.md2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hunter.md2; sourceTree = "<group>"; };
+		7974ECA3178A36D9000B5EFB /* marine.MD2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = marine.MD2; sourceTree = "<group>"; };
+		7974ECA4178A36D9000B5EFB /* sphere.md2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sphere.md2; sourceTree = "<group>"; };
+		7974ECB8178A44BE000B5EFB /* floor.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = floor.bmp; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ZeroEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4139E1D0F45903D00DC8CC5 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = /Library/Frameworks/SDL_image.framework; sourceTree = "<absolute>"; };
+		C4247C4A0F42FBB4008B380B /* Vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2.h; sourceTree = "<group>"; };
+		C4247C4C0F42FBEB008B380B /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3.h; sourceTree = "<group>"; };
+		C4247C4D0F42FBF7008B380B /* Vector4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector4.h; sourceTree = "<group>"; };
+		C4247CA70F42FD43008B380B /* Matrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix3.h; sourceTree = "<group>"; };
+		C4495B510EFC4D0A00745AAE /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		C4495B520EFC4D0A00745AAE /* Application.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
+		C4495B6E0EFC522F00745AAE /* SDLApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLApplication.h; sourceTree = "<group>"; };
+		C4495B6F0EFC522F00745AAE /* SDLApplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDLApplication.cpp; sourceTree = "<group>"; };
+		C4495B830EFC533A00745AAE /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		C4495B840EFC533A00745AAE /* Renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Renderer.cpp; sourceTree = "<group>"; };
+		C4495BC10EFC55D900745AAE /* SampleApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleApplication.h; sourceTree = "<group>"; };
+		C4495BC20EFC55D900745AAE /* SampleApplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SampleApplication.cpp; sourceTree = "<group>"; };
+		C46EDE540F44C16900E1DDC7 /* MD2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD2Model.h; sourceTree = "<group>"; };
+		C46EDE550F44C16900E1DDC7 /* MD2Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MD2Model.cpp; sourceTree = "<group>"; };
+		C46F630B0F4C410D005788EF /* TextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureManager.h; sourceTree = "<group>"; };
+		C46F630C0F4C410D005788EF /* SDLTextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLTextureManager.h; sourceTree = "<group>"; };
+		C46F63D70F4C478B005788EF /* SDLTextureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDLTextureManager.cpp; sourceTree = "<group>"; };
+		C4B535C30F4994100078E863 /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		C4E79F090EFC5A5C00DD1A84 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		C4E79F140EFC5AA900DD1A84 /* Matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix4.h; sourceTree = "<group>"; };
+		C4E79F270EFC5CF300DD1A84 /* SDLSoftwareRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLSoftwareRenderer.h; sourceTree = "<group>"; };
+		C4E79F280EFC5CF300DD1A84 /* SDLSoftwareRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDLSoftwareRenderer.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				C4139E1E0F45903D00DC8CC5 /* SDL_image.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				002F3A2B09D0888800EBEB88 /* SDLMain.h */,
+				002F3A2C09D0888800EBEB88 /* SDLMain.m */,
+			);
+			name = Classes;
+			path = src;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4139E1D0F45903D00DC8CC5 /* SDL_image.framework */,
+				002F39F909D0881F00EBEB88 /* SDL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ZeroEngine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ZeroEngine */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				7974ECA0178A36D9000B5EFB /* models */,
+				7974EC97178A36CE000B5EFB /* textures */,
+			);
+			name = ZeroEngine;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				002F3A3E09D088BA00EBEB88 /* main.cpp */,
+				C4495B510EFC4D0A00745AAE /* Application.h */,
+				C4495B520EFC4D0A00745AAE /* Application.cpp */,
+				C4495B6E0EFC522F00745AAE /* SDLApplication.h */,
+				C4495B6F0EFC522F00745AAE /* SDLApplication.cpp */,
+				C4495BC10EFC55D900745AAE /* SampleApplication.h */,
+				C4495BC20EFC55D900745AAE /* SampleApplication.cpp */,
+				C4495B830EFC533A00745AAE /* Renderer.h */,
+				C4495B840EFC533A00745AAE /* Renderer.cpp */,
+				C4E79F270EFC5CF300DD1A84 /* SDLSoftwareRenderer.h */,
+				C4E79F280EFC5CF300DD1A84 /* SDLSoftwareRenderer.cpp */,
+				C46F630B0F4C410D005788EF /* TextureManager.h */,
+				C46F630C0F4C410D005788EF /* SDLTextureManager.h */,
+				C46F63D70F4C478B005788EF /* SDLTextureManager.cpp */,
+				C4B535C30F4994100078E863 /* Material.h */,
+				C4E79F090EFC5A5C00DD1A84 /* Vertex.h */,
+				C4247C4A0F42FBB4008B380B /* Vector2.h */,
+				C4247C4C0F42FBEB008B380B /* Vector3.h */,
+				C4247C4D0F42FBF7008B380B /* Vector4.h */,
+				C4247CA70F42FD43008B380B /* Matrix3.h */,
+				C4E79F140EFC5AA900DD1A84 /* Matrix4.h */,
+				C46EDE540F44C16900E1DDC7 /* MD2Model.h */,
+				C46EDE550F44C16900E1DDC7 /* MD2Model.cpp */,
+			);
+			name = "Other Sources";
+			path = src;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7974EC97178A36CE000B5EFB /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				7974EC98178A36CE000B5EFB /* cube.bmp */,
+				7974ECB8178A44BE000B5EFB /* floor.bmp */,
+				7974EC9A178A36CE000B5EFB /* hunter.bmp */,
+				7974EC9B178A36CE000B5EFB /* marine.pcx */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		7974ECA0178A36D9000B5EFB /* models */ = {
+			isa = PBXGroup;
+			children = (
+				7974ECA1178A36D9000B5EFB /* cube.md2 */,
+				7974ECA2178A36D9000B5EFB /* hunter.md2 */,
+				7974ECA3178A36D9000B5EFB /* marine.MD2 */,
+				7974ECA4178A36D9000B5EFB /* sphere.md2 */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ZeroEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ZeroEngine" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				002F39FD09D0883400EBEB88 /* Copy Frameworks into .app bundle */,
+				7974ECA9178A39E7000B5EFB /* Copy Files */,
+				7974ECAF178A3A4C000B5EFB /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeroEngine;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ZeroEngine;
+			productReference = 8D1107320486CEB800E47090 /* ZeroEngine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ZeroEngine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ZeroEngine */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ZeroEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				7974ECB9178A44BE000B5EFB /* floor.bmp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002F3A2E09D0888800EBEB88 /* SDLMain.m in Sources */,
+				002F3A3F09D088BA00EBEB88 /* main.cpp in Sources */,
+				C4495B530EFC4D0A00745AAE /* Application.cpp in Sources */,
+				C4495B700EFC522F00745AAE /* SDLApplication.cpp in Sources */,
+				C4495B850EFC533A00745AAE /* Renderer.cpp in Sources */,
+				C4495BC30EFC55D900745AAE /* SampleApplication.cpp in Sources */,
+				C4E79F290EFC5CF300DD1A84 /* SDLSoftwareRenderer.cpp in Sources */,
+				C46EDE560F44C16900E1DDC7 /* MD2Model.cpp in Sources */,
+				C46F630D0F4C410D005788EF /* SDLTextureManager.h in Sources */,
+				C46F63D80F4C478B005788EF /* SDLTextureManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ZeroEngine;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ZeroEngine;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(HOME)/Library/Frameworks",
+					/Library/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+				GCC_CW_ASM_SYNTAX = YES;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
+				GCC_UNROLL_LOOPS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = NO;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_PROTOTYPE_CONVERSION = NO;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Library/Frameworks/SDL.framework/Headers",
+					/Library/Frameworks/SDL.framework/Headers,
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				OTHER_CPLUSPLUSFLAGS = "";
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(HOME)/Library/Frameworks",
+					/Library/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Library/Frameworks/SDL.framework/Headers",
+					/Library/Frameworks/SDL.framework/Headers,
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				OTHER_CPLUSPLUSFLAGS = "";
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ZeroEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ZeroEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
